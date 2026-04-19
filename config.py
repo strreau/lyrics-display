@@ -4,7 +4,7 @@ SAMPLE_RATE = 16000       # Vosk works best at 16kHz
 CHANNELS = 1              # Mono input
 
 # ── Speech Recognition ───────────────────────────────────────
-VOSK_MODEL_PATH = "models/vosk-model"  # Path to downloaded Vosk model
+VOSK_MODEL_PATH = "models/vosk-model-spanish"  # Path to downloaded Vosk model
 
 # ── Fuzzy Matching ───────────────────────────────────────────
 MATCH_THRESHOLD = 65      # Minimum match score (0-100) to advance a slide
