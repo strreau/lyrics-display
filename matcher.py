@@ -18,6 +18,7 @@ class LyricsMatcher:
         or None if no match is confident enough.
         """
         if self.current_index >= len(self.lyrics):
+            self.reset()
             return None  # end of song
 
         # only look ahead within the window, never backwards
