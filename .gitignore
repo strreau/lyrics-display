@@ -1,3 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Conda / virtualenv
+*.egg-info/
+.env
+.venv
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vosk models (too large for git)
+*.zip
+models/
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
